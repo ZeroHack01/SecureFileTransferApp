@@ -1,3 +1,5 @@
+# 🔐 SecureFileTransferApp
+
 ![License](https://img.shields.io/badge/License-MIT-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Platform](https://img.shields.io/badge/Platform-Cross--Platform-brightgreen)
