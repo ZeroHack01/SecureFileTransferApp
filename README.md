@@ -1,4 +1,4 @@
-# 🔐 SecureFileTransferApp
+🔐 SecureFileTransferApp
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
@@ -21,7 +21,7 @@ Ideal for professionals who need lightweight, CLI-based, and private file exchan
 - ✅ Ready for network environments  
 
 
-## 🛠️ Project Structure
+🛠️ Project Structure
 
 SecureFileTransferApp/
 ├── client.py # Client-side file receiver
@@ -35,13 +35,14 @@ SecureFileTransferApp/
 
 
 📦 Installation
-
+,,bash
 git clone https://github.com/ZeroHack01/SecureFileTransferApp.git
 cd SecureFileTransferApp
-
+,,bash
 python3 -m venv venv
 source venv/bin/activate
 
+,,bash
 pip install -r requirements.txt
 
 🔑 Key Generation
@@ -56,12 +57,11 @@ Or: Enter the same passphrase on both machines. It will be internally converted.
 
 📡 Usage
 📤 Sender (Host):
-bash
-
+,,bash
 python server.py --port 4444 --key your_secure_passphrase
 
 📥 Receiver (Client):
-bash
+,,bash
 python client.py --host 192.168.x.x --port 4444 --key your_secure_passphrase
 Replace 192.168.x.x with the IP address of the host (e.g., your VM or LAN system).
 
